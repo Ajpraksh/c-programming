@@ -1,0 +1,15 @@
+
+#include<stdio.h>
+void main()
+{
+int a,b;
+clrscr();
+printf("enter the value for a and b:");
+scanf("%d%d",&a,&b);
+printf("\nsum of a and b is %d",(a+b));
+printf("\nsub of a and b is %d",(a-b));
+printf("\nmul of a and b is %d",(a*b));
+printf("\ndiv of a and b is %d",(a/b));
+printf("\nmod of a and b is %d",(a%b));
+getch();
+}
