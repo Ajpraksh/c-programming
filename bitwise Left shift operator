@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+ main()
+{
+int n;
+ printf("Enter the value for n");
+ scanf("%d",&n);
+ printf(" \n value of n<<1 is %d",n<<1);
+ printf(" \n value of n<<2 is %d",n<<2);
+ printf(" \n value of n<<3 is %d",n<<3);
+}
