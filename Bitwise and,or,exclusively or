@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+clrscr();
+ printf("Enter the value for a and b:");
+ scanf("%d%d",&a,&b);
+ printf(" \n value of bitwise & is %d",a&b);
+ printf(" \n value of bitwise | is %d",a|b);
+ printf(" \n value of bitwise ^ is %d",a^b);
+ getch();
+}
