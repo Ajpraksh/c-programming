@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int tax,gst,itax,empsal,empannualsal;
+ char empname[50];
+ clrscr();
+ printf("Enter the name of the employee:");
+ scanf("%s",empname);
+ printf("Enter the salary of the employee:");
+ scanf("%d",&empsal);
+ empannualsal=empsal*12;
+ if(empannualsal>5000000)
+ tax=empannualsal*20/100;
+ if(empannualsal>3000000)
+ tax=empannualsal*15/100;
+if(empannualsal>1000000)
+ tax=empannualsal*10/100;
+ if(empannualsal>700000)
+ tax=empannualsal*5/100;
+ if(empannualsal>300000)
+ tax=empannualsal*3/100;
+ if(empannualsal<300000)
+ tax=0;
+ gst=tax*18/100;
+ itax=tax+gst;
+ printf("Income tax of the employee is %d",itax);
+ getch();
+ }
