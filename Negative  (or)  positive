@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+int p;
+clrscr();
+printf("Enter value for p:");
+scanf("%d",&p);
+if(p>=0)
+printf("the value is positive");
+if(p<0)
+printf("the value is negative");
+getch();
+}
