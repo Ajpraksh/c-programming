@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int scost,amt,nofs;
+printf("Enter the subscribtion cost and amount: ");
+scanf("\n%d\n%d",&scost,&amt);
+nofs=amt/scost;
+printf("No.of subscribtions you can take is %d ",nofs);
+}
